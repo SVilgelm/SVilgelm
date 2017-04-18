@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Disallow: /index.html
+Sitemap: https://www.vilgelm.info/sitemap.xml
