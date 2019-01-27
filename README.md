@@ -2,7 +2,7 @@
 
 Software Engineer
 
-## Top Skills:
+## Top Skills
 
 * Python
 * OpenStack Core components (Core developer at Patrole)
