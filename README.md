@@ -27,4 +27,5 @@ Any questions? Please feel free to contact me:
 
 * Facebook: https://www.facebook.com/Sergey.Vilgelm
 * LinkedIn: https://www.linkedin.com/in/svilgelm
+* ToxMe: https://toxme.io/u/sergeyvilgelm
 * Email: sergey@vilgelm.info
