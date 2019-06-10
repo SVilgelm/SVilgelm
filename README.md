@@ -5,8 +5,10 @@ Software Engineer
 ## Top Skills
 
 * Python
-* OpenStack Core components (Core developer at Patrole)
-* Django
+    * OpenStack Core components (Core developer at [Patrole](https://github.com/openstack/patrole))
+    * Django
+* Go
+    * GRPC
 * PostgreSQL
 * Linux (Ubuntu/Debian)
 
@@ -25,7 +27,6 @@ Software Engineer
 ## Contact
 Any questions? Please feel free to contact me:
 
-* Facebook: https://www.facebook.com/Sergey.Vilgelm
 * LinkedIn: https://www.linkedin.com/in/svilgelm
-* ToxMe: https://toxme.io/u/sergeyvilgelm
 * Email: sergey@vilgelm.info
+* Phone: +1 (669) 292 7940
