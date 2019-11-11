@@ -15,6 +15,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -46,15 +47,21 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link"
-                           href="SergeyVilgelmCV.pdf">
-                            <abbr title="SergeyVilgelmCV.pdf">CV</abbr>
-                            <sup><span class="material-icons md-18">picture_as_pdf</span></sup>
+                           href="SergeyVilgelmCV.pdf"
+                           title="SergeyVilgelmCV.pdf"
+                           data-toggle="tooltip">
+                            CV
+                            <sup>
+                                <span class="material-icons md-18">picture_as_pdf</span>
+                            </sup>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="https://keys.openpgp.org/search?q=sergey%40vilgelm.info">
-                            <abbr title="Open PGP public key: C08A 28D0 D765 525F E8B6  81B4 08D0 E2FF 7788 87E6">GPG</abbr>
+                           href="https://keys.openpgp.org/search?q=sergey%40vilgelm.info"
+                           title="Open PGP public key: C08A 28D0 D765 525F E8B6  81B4 08D0 E2FF 7788 87E6"
+                           data-toggle="tooltip">
+                            GPG
                             <sup><span class="material-icons md-18">verified_user</span></sup>
                         </a>
                     </li>
@@ -94,13 +101,17 @@
                role="button" aria-expanded="false"
                aria-controls="Mongo_certificates">
                 <span>MongoDB University</span>
-                <span class="badge badge-primary badge-pill ml-3">1</span>
+                <span class="badge badge-primary badge-pill ml-3">2</span>
             </a>
             <div class="collapse" id="Mongo_certificates">
+                <a href="https://university.mongodb.com/courses/catalog">Cources:</a>
                 <ul>
                     <li>
-                        <a href="https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126/printable">M001: MongoDB Basics</a>
+                        <a href="https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126/printable">M001:
+                            MongoDB Basics</a>
                     </li>
+                    <li><a href="#" data-toggle="tooltip" title="No Certificate">M042: New Features and Tools in
+                        MongoDB 4.2</a></li>
                 </ul>
             </div>
         </li>
@@ -159,6 +170,11 @@
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 
 </body>
 </html>
