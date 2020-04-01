@@ -12,6 +12,7 @@ Software Engineer
   * Flask/Flask-RestPlus|RestX
 * Go
   * GRPC
+  * gorilla/mux
 * PostgreSQL
 * Linux (Ubuntu/Debian)
 
@@ -21,6 +22,7 @@ Software Engineer
   * M001: MongoDB Basics: https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126
   * M201: MongoDB Performance: https://university.mongodb.com/course_completion/4c6e205b-8090-4b1f-a888-74321a765300
   * M042: New Features and Tools in MongoDB 4.2
+  * M103: Basic Cluster Administration: https://university.mongodb.com/course_completion/404674b5-64a4-4de5-8186-09b028162397
 * Executive Data Science by Johns Hopkins University
   * A Crash Course in Data Science: https://www.coursera.org/account/accomplishments/verify/V29Z294N7JGP
   * Building a Data Science Team: https://www.coursera.org/account/accomplishments/verify/Q5AVYQ8NS4BN
