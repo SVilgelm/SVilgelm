@@ -2,7 +2,7 @@
 
 Software Engineer
 [CV](SergeyVilgelmCV.pdf)
-[GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.info)
+[GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com)
 
 ## Top Skills
 
