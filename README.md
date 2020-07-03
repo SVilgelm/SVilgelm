@@ -1,6 +1,6 @@
 # Sergey Vilgelm
 
-Software Engineer
+Senior Software Engineer
 [CV](SergeyVilgelmCV.pdf)
 [GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com)
 
@@ -37,5 +37,5 @@ Software Engineer
 Any questions? Please feel free to contact me:
 
 * LinkedIn: https://www.linkedin.com/in/svilgelm
-* Email: sergey@vilgelm.info
+* Email: sergey@vilgelm.com [ProtonMail]
 * Phone: +1 (669) 292 7940
