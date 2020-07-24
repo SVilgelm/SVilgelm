@@ -4,6 +4,8 @@ Senior Software Engineer
 [CV](SergeyVilgelmCV.pdf)
 [GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com)
 
+Looking for a new job in Germany/Austria/Switzerland with a relocation
+
 ## Top Skills
 
 * Python
@@ -13,7 +15,8 @@ Senior Software Engineer
 * Go
   * GRPC
   * gorilla/mux
-* PostgreSQL
+  * echo
+* PostgreSQL, MongoDB
 * Linux (Ubuntu/Debian)
 
 ## Certifications
@@ -38,4 +41,3 @@ Any questions? Please feel free to contact me:
 
 * LinkedIn: https://www.linkedin.com/in/svilgelm
 * Email: sergey@vilgelm.com [ProtonMail]
-* Phone: +1 (669) 292 7940
