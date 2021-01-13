@@ -48,3 +48,4 @@ Any questions? Please feel free to contact me:
 
 * LinkedIn: https://www.linkedin.com/in/svilgelm
 * Email: sergey@vilgelm.com [ProtonMail]
+* Threema ID: https://threema.id/2ESABKFX
