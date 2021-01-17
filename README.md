@@ -42,6 +42,7 @@ Looking for a new job in Germany/Austria/Switzerland/Luxemburg with a relocation
   * Getting Started with Google Kubernetes Engine: https://www.coursera.org/account/accomplishments/verify/ZE5CLY8C7MZ9
   * Algorithmic Toolbox by University of California, San Diego & Higher School of Economics: https://www.coursera.org/account/accomplishments/verify/UDMF7Z3VLL8K
 * Computer Science 101 by Stanford Online: https://vilgelm.com/certificates/stanford/CS101.pdf
+* Cloud Native Applications by Austin Community College: https://vilgelm.com/certificates/acc/cloud-native-applications.pdf
 
 ## Contact
 Any questions? Please feel free to contact me:
