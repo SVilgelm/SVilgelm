@@ -28,6 +28,7 @@ Looking for a new job in Germany/Austria/Switzerland/Luxemburg with a relocation
   * Protocol Buffers: https://www.udemy.com/certificate/UC-f642ba24-9c92-431f-b497-5cc831902304/
   * Go Concurrency: https://www.udemy.com/certificate/UC-6a2f9b0c-3b08-4ed8-8265-f8b96c2dd34d/
   * Go Testing: https://www.udemy.com/certificate/UC-2d07f1d7-5316-4c21-a715-96f606f1f069/
+  * Swagger and Open API Specification: https://www.udemy.com/certificate/UC-09261dbd-bd93-458c-8200-84b7d620ccc7/
 * MongoDB University
   * M001: MongoDB Basics: https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126
   * M201: MongoDB Performance: https://university.mongodb.com/course_completion/4c6e205b-8090-4b1f-a888-74321a765300
