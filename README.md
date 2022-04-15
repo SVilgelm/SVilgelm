@@ -4,7 +4,6 @@ Senior Software Engineer
 [CV](https://vilgelm.com/SergeyVilgelmCV.pdf)
 [GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com)
 
-Looking for a new job in Germany/Austria/Switzerland/Luxemburg with a relocation
 
 ## Top Skills
 
