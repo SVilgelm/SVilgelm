@@ -4,18 +4,13 @@ Senior Software Engineer
 [CV](https://vilgelm.com/SergeyVilgelmCV.pdf)
 [GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com "C08A28D0D765525FE8B681B408D0E2FF778887E6")
 [AGE](https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/age.txt "age1lt4xe6szytnwnhqv7q8khesrcuvp2kkm2xkhy59950h4w0z3guhspa3anc")
-
+[Blog](https://medium.com/@sergey.vilgelm)
 
 ## Top Skills
 
 * Python
-  * OpenStack Core components
-  * Django
-  * Flask/Flask-RestPlus|RestX
-* Go
-  * gRPC
-  * gorilla/mux
-  * echo
+* Go | Golang
+* Kubernetes, Docker
 * PostgreSQL, MongoDB
 * Linux (Ubuntu/Debian)
 * Rest API, GraphQL
@@ -47,9 +42,8 @@ Senior Software Engineer
 * Computer Science 101 by Stanford Online: https://vilgelm.com/certificates/stanford/CS101.pdf
 * Cloud Native Applications by Austin Community College: https://vilgelm.com/certificates/acc/cloud-native-applications.pdf
 
-## Contact
+## Contacts
 Any questions? Please feel free to contact me:
 
 * LinkedIn: https://www.linkedin.com/in/svilgelm
 * Email: sergey@vilgelm.com [ProtonMail]
-* Threema ID: https://threema.id/2ESABKFX
