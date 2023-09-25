@@ -30,6 +30,7 @@ Senior Software Engineer
   * M042: New Features and Tools in MongoDB 4.2
   * M103: Basic Cluster Administration: https://university.mongodb.com/course_completion/404674b5-64a4-4de5-8186-09b028162397
 * Coursera
+  * A comprehensive approach to C# Fundamentals: https://www.coursera.org/account/accomplishments/verify/UH6LT6Z5397E 
   * Google Project Management
     * Foundations of Project Management: https://www.coursera.org/account/accomplishments/verify/4QSQLUMYBAU9
   * Executive Data Science by Johns Hopkins University
