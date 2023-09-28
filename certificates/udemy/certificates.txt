@@ -1,7 +1,0 @@
-Ultimate Rust Crash Course: https://www.udemy.com/certificate/UC-57bda3e4-0b5b-4d70-8832-f62e8169c640/
-Clean Code: https://udemy.com/certificate/UC-f00c903a-7410-4cb7-8f2b-09defb025718/
-gRPC[golang]: https://udemy.com/certificate/UC-064323d8-e39d-4d86-b2aa-1fa4f5becfdd/
-Protocol Buffers: https://www.udemy.com/certificate/UC-f642ba24-9c92-431f-b497-5cc831902304/
-Go Concurrency: https://www.udemy.com/certificate/UC-6a2f9b0c-3b08-4ed8-8265-f8b96c2dd34d/
-Go Testing: https://www.udemy.com/certificate/UC-2d07f1d7-5316-4c21-a715-96f606f1f069/
-Swagger: https://www.udemy.com/certificate/UC-09261dbd-bd93-458c-8200-84b7d620ccc7/
