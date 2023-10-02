@@ -19,6 +19,7 @@ Senior Software Engineer
 
 * Udemy
   * Ultimate Rust Crash Course: https://www.udemy.com/certificate/UC-57bda3e4-0b5b-4d70-8832-f62e8169c640/
+  * Ultimate Rust 2: Intermediate Concepts: https://www.udemy.com/certificate/UC-5a2ea1e9-e7cf-4cbe-b075-f31ad9eca3fe/
   * Clean Code: https://udemy.com/certificate/UC-f00c903a-7410-4cb7-8f2b-09defb025718/
   * gRPC[golang]: https://udemy.com/certificate/UC-064323d8-e39d-4d86-b2aa-1fa4f5becfdd/
   * Protocol Buffers: https://www.udemy.com/certificate/UC-f642ba24-9c92-431f-b497-5cc831902304/
