@@ -14,7 +14,7 @@ Senior Software Engineer
 * Kubernetes, Docker
 * PostgreSQL, MongoDB
 * Linux (Ubuntu/Debian)
-* Rest API, GraphQL
+* Rest API, GraphQL, GRPC
 
 ## Certifications
 
