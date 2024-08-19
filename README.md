@@ -8,8 +8,9 @@ Senior Software Engineer
 
 ## Top Skills
 
-* Python
+* Rust
 * Go | Golang
+* Python
 * Kubernetes, Docker
 * PostgreSQL, MongoDB
 * Linux (Ubuntu/Debian)
