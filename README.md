@@ -4,7 +4,6 @@ Senior Software Engineer
 [CV](https://vilgelm.com/SergeyVilgelmCV.pdf)
 [GPG](https://keys.openpgp.org/search?q=sergey%40vilgelm.com "C08A28D0D765525FE8B681B408D0E2FF778887E6")
 [AGE](https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/age.txt "age1lt4xe6szytnwnhqv7q8khesrcuvp2kkm2xkhy59950h4w0z3guhspa3anc")
-[Blog](https://github.com/SVilgelm/SVilgelm/discussions/categories/blog)
 
 ## Top Skills
 
