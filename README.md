@@ -55,4 +55,4 @@ Any questions? Please feel free to contact me:
 
 * LinkedIn: https://www.linkedin.com/in/svilgelm
 * Email: sergey@vilgelm.com
-* Pet Projects: https://github.com/sv-tools
+* Open Source Projects: https://github.com/sv-tools
