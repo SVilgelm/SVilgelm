@@ -11,9 +11,8 @@ Principal Software Engineer
 - Rust
 - Go | Golang
 - Python
-- Kubernetes, Docker
+- Kubernetes, Docker, Open Policy Agent (OPA)
 - PostgreSQL, MongoDB
-- Linux (Ubuntu/Debian)
 - Rest API, GraphQL, GRPC
 
 ## Certifications
