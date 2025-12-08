@@ -1,335 +1,575 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Home page of Sergey Vilgelm" name="description">
-    <meta content="Sergey Vilgelm (sergey@vilgelm.com)" name="author">
-    <meta content="Sergey Vilgelm, Python, Go, Golang, Rust,
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Home page of Sergey Vilgelm" />
+    <meta name="author" content="Sergey Vilgelm (sergey@vilgelm.com)" />
+    <meta
+      name="keywords"
+      content="Sergey Vilgelm, Python, Go, Golang, Rust,
                                        Principal, Software, Engineer, Developer,
-                                       Сергей Вильгельм, Программист" name="keywords">
-    <link href="assets/favicon.ico" rel="shortcut icon">
+                                       Сергей Вильгельм, Программист"
+    />
+    <link href="assets/favicon.ico" rel="shortcut icon" />
 
     <title>Sergey Vilgelm</title>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-          crossorigin="anonymous">
-    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
     <style>
-        body {
-            min-height: 75rem;
-            padding-top: 5.5rem;
-        }
+      body {
+        min-height: 75rem;
+        padding-top: 5.5rem;
+      }
 
-        .material-icons.md-18 {
-            font-size: 18px;
-        }
+      .material-icons.md-18 {
+        font-size: 18px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-<header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light mb-4">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="/">
-                <h2>Sergey Vilgelm</h2>
-            </a>
-            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-                    data-target="#navbar" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <a class="navbar-brand" href="/">
+            <h2>Sergey Vilgelm</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" data-toggle="tooltip" href="SergeyVilgelmCV.pdf"
-                           title="SergeyVilgelmCV.pdf">
-                            CV
-                            <sup>
-                                <span class="material-icons md-18">picture_as_pdf</span>
-                            </sup>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Public Keys
-                            <sup><span class="material-icons md-18">verified_user</span></sup>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="nav-link" data-toggle="tooltip"
-                               href="https://keys.openpgp.org/search?q=sergey%40vilgelm.com"
-                               title="C08A 28D0 D765 525F E8B6  81B4 08D0 E2FF 7788 87E6">
-                                GPG
-                            </a>
-                            <a class="nav-link" data-toggle="tooltip"
-                               href="https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/age.txt"
-                               title="age1qgspdffxrl7ncy3fqvd7w4uhpzfcka2l3stfh0j7ywnqawz9g5cqgzfdxt">
-                                AGE
-                            </a>
-                            <a class="nav-link" data-toggle="tooltip"
-                               href="https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/iMessage.txt"
-                               title="APKTIDeUin1kFI4jijIM8_V_kwoj9hEu2ssghDMiiy4FRfMDJIPQ">
-                                iMessage
-                            </a>
-                        </div>
-                    </li>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  data-bs-toggle="tooltip"
+                  href="SergeyVilgelmCV.pdf"
+                  title="SergeyVilgelmCV.pdf"
+                >
+                  CV
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  title="My Public Keys"
+                >
+                  Public Keys
+                  <sup>
+                    <span class="material-icons md-18">verified_user</span>
+                  </sup>
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="nav-link"
+                      data-bs-toggle="tooltip"
+                      href="https://keys.openpgp.org/search?q=sergey%40vilgelm.com"
+                      title="C08A 28D0 D765 525F E8B6  81B4 08D0 E2FF 7788 87E6"
+                    >
+                      GPG
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-link"
+                      data-bs-toggle="tooltip"
+                      href="https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/age.txt"
+                      title="age1qgspdffxrl7ncy3fqvd7w4uhpzfcka2l3stfh0j7ywnqawz9g5cqgzfdxt"
+                    >
+                      AGE
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="nav-link"
+                      data-bs-toggle="tooltip"
+                      href="https://raw.githubusercontent.com/SVilgelm/SVilgelm/main/iMessage.txt"
+                      title="APKTIDeUin1kFI4jijIM8_V_kwoj9hEu2ssghDMiiy4FRfMDJIPQ"
+                    >
+                      iMessage
+                    </a>
+                  </li>
                 </ul>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main class="container" role="main">
-    <h3>Principal Software Engineer</h3>
+    <main class="container">
+      <h3>Principal Software Engineer</h3>
 
-    <h4>Top Skills</h4>
-    <ul>
+      <h4>Top Skills</h4>
+      <ul>
         <li>Rust</li>
         <li>GO | Golang</li>
         <li>Python</li>
-        <li>Kubernetes, Docker</li>
+        <li>Kubernetes, Docker, Open Policy Agent (OPA)</li>
         <li>PostgreSQL, MongoDB</li>
-        <li>Linux (Ubuntu/Debian), Windows</li>
         <li>Rest API, GraphQL, GRPC</li>
-    </ul>
+      </ul>
 
-    <h4>Certifications</h4>
-    <ul>
+      <h4>Certifications</h4>
+      <ul>
         <li>
-            <a aria-controls="udemy_certificates" aria-expanded="false" class="" data-toggle="collapse" href="#udemy_certificates"
-               role="button">
-                <span>Udemy</span>
-                <span class="badge badge-primary badge-pill ml-3">8</span>
-            </a>
-            <div class="collapse" id="udemy_certificates">
-                <ul>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-57bda3e4-0b5b-4d70-8832-f62e8169c640/">Ultimate
-                            Rust Crash Course</a>
-                        <a href="/certificates/udemy/ultimate-rust-crash-course.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-5a2ea1e9-e7cf-4cbe-b075-f31ad9eca3fe/">Ultimate
-                            Rust 2: Intermediate Concepts</a>
-                        <a href="/certificates/udemy/ultimate-rust-2-intermediate-concepts.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://udemy.com/certificate/UC-f00c903a-7410-4cb7-8f2b-09defb025718/">Clean
-                            Code</a>
-                        <a href="/certificates/udemy/clean-code.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-f642ba24-9c92-431f-b497-5cc831902304/">Complete
-                            Guide to Protocol Buffers 3 [Java, Golang, Python]</a>
-                        <a href="/certificates/udemy/protocol-buffers.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://udemy.com/certificate/UC-064323d8-e39d-4d86-b2aa-1fa4f5becfdd/">gRPC
-                            [Golang] Master Class: Build Modern API & Microservices</a>
-                        <a href="/certificates/udemy/grpc-golang.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-6a2f9b0c-3b08-4ed8-8265-f8b96c2dd34d/">Concurrency
-                            in Go</a>
-                        <a href="/certificates/udemy/go-concurrency.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-2d07f1d7-5316-4c21-a715-96f606f1f069/">Unit,
-                            integration and functional Testing in Golang</a>
-                        <a href="/certificates/udemy/go-testing.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.udemy.com/certificate/UC-09261dbd-bd93-458c-8200-84b7d620ccc7/">Learn
-                            Swagger and the Open API Specification</a>
-                        <a href="/certificates/udemy/swagger.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li>
-            <a aria-controls="mongodb_certificates" aria-expanded="false" class="" data-toggle="collapse" href="#mongodb_certificates"
-               role="button">
-                <span>MongoDB University</span>
-                <span class="badge badge-primary badge-pill ml-3">4</span>
-            </a>
-            <div class="collapse" id="mongodb_certificates">
-                <a href="https://university.mongodb.com/courses/catalog">Courses:</a>
-                <ul>
-                    <li>
-                        <a
-                                href="https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126">M001:
-                            MongoDB Basics</a>
-                        <a href="/certificates/mongo/M001.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a
-                                href="https://university.mongodb.com/course_completion/4c6e205b-8090-4b1f-a888-74321a765300">M201:
-                            MongoDB Performance</a>
-                        <a href="/certificates/mongo/M201.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li><a data-toggle="tooltip" href="#" title="No Certificate">M042: New Features and Tools in
-                        MongoDB 4.2</a></li>
-                    <li>
-                        <a
-                                href="https://university.mongodb.com/course_completion/404674b5-64a4-4de5-8186-09b028162397">M103:
-                            Basic Cluster Administration</a>
-                        <a href="/certificates/mongo/M103.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li>
-            <a aria-controls="coursera_certificates" aria-expanded="false" class="" data-toggle="collapse" href="#coursera_certificates"
-               role="button">
-                <span>Coursera</span>
-                <span class="badge badge-primary badge-pill ml-3">8</span>
-            </a>
-            <div class="collapse" id="coursera_certificates">
-                <ul>
-                    <li>
-                        <a href="https://www.coursera.org/account/accomplishments/verify/UH6LT6Z5397E">A comprehensive
-                            approach to C# Fundamentals</a>
-                        <a href="/certificates/coursera/a-comprehensive-approach-to-csharp-fundamentals.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a aria-controls="DS_certificates" aria-expanded="false" class="" data-toggle="collapse"
-                           href="#PMGOOG_certificates" role="button">
-                            <span>Google Project Management</span>
-                            <span class="badge badge-primary badge-pill ml-3">1</span>
-                        </a>
-                        <div class="collapse" id="PMGOOG_certificates">
-                            <ul>
-                                <li>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/4QSQLUMYBAU9">Foundations
-                                        of Project Management</a>
-                                    <a href="/certificates/coursera/foundation-of-project-management.pdf"><sup>
-                                        <span class="material-icons md-18">picture_as_pdf</span>
-                                    </sup></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a aria-controls="DS_certificates" aria-expanded="false" class="" data-toggle="collapse"
-                           href="#DS_certificates" role="button">
-                            <span><strong>Executive Data Science</strong> by Johns Hopkins University</span>
-                            <span class="badge badge-primary badge-pill ml-3">4</span>
-                        </a>
-                        <div class="collapse" id="DS_certificates">
-                            <ul>
-                                <li>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/V29Z294N7JGP">A
-                                        Crash Course in Data Science</a>
-                                    <a href="/certificates/coursera/a-crash-course-in-data-science.pdf"><sup>
-                                        <span class="material-icons md-18">picture_as_pdf</span>
-                                    </sup></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/Q5AVYQ8NS4BN">Building
-                                        a Data Science Team</a>
-                                    <a href="/certificates/coursera/building-a-data-science-team.pdf"><sup>
-                                        <span class="material-icons md-18">picture_as_pdf</span>
-                                    </sup></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/7Q2SS3P3MRMS">Managing
-                                        Data Analysis</a>
-                                    <a href="/certificates/coursera/managing-data-analysis.pdf"><sup>
-                                        <span class="material-icons md-18">picture_as_pdf</span>
-                                    </sup></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.coursera.org/account/accomplishments/verify/4SWSR94H3C3Z">Data
-                                        Science in Real Life</a>
-                                    <a href="/certificates/coursera/data-science-in-real-life.pdf"><sup>
-                                        <span class="material-icons md-18">picture_as_pdf</span>
-                                    </sup></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="https://www.coursera.org/account/accomplishments/verify/ZE5CLY8C7MZ9">Getting
-                            Started with Google Kubernetes Engine</a>
-                        <a href="/certificates/coursera/getting-started-with-google-kubernetes-engine.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                    <li>
-                        <a href="https://www.coursera.org/account/accomplishments/verify/UDMF7Z3VLL8K">Algorithmic
-                            Toolbox by University of California, San Diego & Higher
-                            School of Economics</a>
-                        <a href="/certificates/coursera/algorithmic-toolbox.pdf"><sup>
-                            <span class="material-icons md-18">picture_as_pdf</span>
-                        </sup></a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li><a href="/certificates/stanford/CS101.pdf">Computer Science 101 by Stanford Online</a>
-            <sup>
-                <span class="material-icons md-18">picture_as_pdf</span>
-            </sup>
-        </li>
-        <li><a href="/certificates/acc/cloud-native-applications.pdf">Cloud Native Applications by Austin Community
-            College</a>
-            <sup>
-                <span class="material-icons md-18">picture_as_pdf</span>
-            </sup>
-        </li>
-    </ul>
+          <a
+            class=""
+            data-bs-toggle="collapse"
+            href="#udemy_certificates"
+            role="button"
+            aria-controls="udemy_certificates"
+            aria-expanded="false"
+          >
+            <span>Udemy</span>
+            <span class="badge text-bg-primary rounded-pill ml-3">8</span>
+          </a>
 
-    <h3>Contacts</h3>
-    <p class="lead">Any questions? Please feel free to contact me:</p>
-    <ul>
+          <div class="collapse" id="udemy_certificates">
+            <ul>
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-57bda3e4-0b5b-4d70-8832-f62e8169c640/"
+                >
+                  Ultimate Rust Crash Course
+                </a>
+                <a href="/certificates/udemy/ultimate-rust-crash-course.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-5a2ea1e9-e7cf-4cbe-b075-f31ad9eca3fe/"
+                >
+                  Ultimate Rust 2: Intermediate Concepts
+                </a>
+                <a
+                  href="/certificates/udemy/ultimate-rust-2-intermediate-concepts.pdf"
+                >
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://udemy.com/certificate/UC-f00c903a-7410-4cb7-8f2b-09defb025718/"
+                >
+                  Clean Code
+                </a>
+                <a href="/certificates/udemy/clean-code.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-f642ba24-9c92-431f-b497-5cc831902304/"
+                >
+                  Complete Guide to Protocol Buffers 3 [Java, Golang, Python]
+                </a>
+                <a href="/certificates/udemy/protocol-buffers.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://udemy.com/certificate/UC-064323d8-e39d-4d86-b2aa-1fa4f5becfdd/"
+                >
+                  gRPC [Golang] Master Class: Build Modern API &amp;
+                  Microservices
+                </a>
+                <a href="/certificates/udemy/grpc-golang.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-6a2f9b0c-3b08-4ed8-8265-f8b96c2dd34d/"
+                >
+                  Concurrency in Go
+                </a>
+                <a href="/certificates/udemy/go-concurrency.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-2d07f1d7-5316-4c21-a715-96f606f1f069/"
+                >
+                  Unit, integration and functional Testing in Golang
+                </a>
+                <a href="/certificates/udemy/go-testing.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.udemy.com/certificate/UC-09261dbd-bd93-458c-8200-84b7d620ccc7/"
+                >
+                  Learn Swagger and the Open API Specification
+                </a>
+                <a href="/certificates/udemy/swagger.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a
+            class=""
+            data-bs-toggle="collapse"
+            href="#mongodb_certificates"
+            role="button"
+            aria-controls="mongodb_certificates"
+            aria-expanded="false"
+          >
+            <span>MongoDB University</span>
+            <span class="badge text-bg-primary rounded-pill ml-3">4</span>
+          </a>
+
+          <div class="collapse" id="mongodb_certificates">
+            <a href="https://university.mongodb.com/courses/catalog"
+              >Courses:</a
+            >
+            <ul>
+              <li>
+                <a
+                  href="https://university.mongodb.com/course_completion/ff1ba99d-effc-4757-9b11-45b53591a126"
+                >
+                  M001: MongoDB Basics
+                </a>
+                <a href="/certificates/mongo/M001.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://university.mongodb.com/course_completion/4c6e205b-8090-4b1f-a888-74321a765300"
+                >
+                  M201: MongoDB Performance
+                </a>
+                <a href="/certificates/mongo/M201.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a data-bs-toggle="tooltip" href="#" title="No Certificate">
+                  M042: New Features and Tools in MongoDB 4.2
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://university.mongodb.com/course_completion/404674b5-64a4-4de5-8186-09b028162397"
+                >
+                  M103: Basic Cluster Administration
+                </a>
+                <a href="/certificates/mongo/M103.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a
+            class=""
+            data-bs-toggle="collapse"
+            href="#coursera_certificates"
+            role="button"
+            aria-controls="coursera_certificates"
+            aria-expanded="false"
+          >
+            <span>Coursera</span>
+            <span class="badge text-bg-primary rounded-pill ml-3">8</span>
+          </a>
+
+          <div class="collapse" id="coursera_certificates">
+            <ul>
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/UH6LT6Z5397E"
+                >
+                  A comprehensive approach to C# Fundamentals
+                </a>
+                <a
+                  href="/certificates/coursera/a-comprehensive-approach-to-csharp-fundamentals.pdf"
+                >
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class=""
+                  data-bs-toggle="collapse"
+                  href="#PMGOOG_certificates"
+                  role="button"
+                  aria-controls="DS_certificates"
+                  aria-expanded="false"
+                >
+                  <span>Google Project Management</span>
+                  <span class="badge text-bg-primary rounded-pill ml-3">1</span>
+                </a>
+
+                <div class="collapse" id="PMGOOG_certificates">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/4QSQLUMYBAU9"
+                      >
+                        Foundations of Project Management
+                      </a>
+                      <a
+                        href="/certificates/coursera/foundation-of-project-management.pdf"
+                      >
+                        <sup>
+                          <span class="material-icons md-18"
+                            >picture_as_pdf</span
+                          >
+                        </sup>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a
+                  class=""
+                  data-bs-toggle="collapse"
+                  href="#DS_certificates"
+                  role="button"
+                  aria-controls="DS_certificates"
+                  aria-expanded="false"
+                >
+                  <span
+                    ><strong>Executive Data Science</strong> by Johns Hopkins
+                    University</span
+                  >
+                  <span class="badge text-bg-primary rounded-pill ml-3">4</span>
+                </a>
+
+                <div class="collapse" id="DS_certificates">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/V29Z294N7JGP"
+                      >
+                        A Crash Course in Data Science
+                      </a>
+                      <a
+                        href="/certificates/coursera/a-crash-course-in-data-science.pdf"
+                      >
+                        <sup>
+                          <span class="material-icons md-18"
+                            >picture_as_pdf</span
+                          >
+                        </sup>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/Q5AVYQ8NS4BN"
+                      >
+                        Building a Data Science Team
+                      </a>
+                      <a
+                        href="/certificates/coursera/building-a-data-science-team.pdf"
+                      >
+                        <sup>
+                          <span class="material-icons md-18"
+                            >picture_as_pdf</span
+                          >
+                        </sup>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/7Q2SS3P3MRMS"
+                      >
+                        Managing Data Analysis
+                      </a>
+                      <a
+                        href="/certificates/coursera/managing-data-analysis.pdf"
+                      >
+                        <sup>
+                          <span class="material-icons md-18"
+                            >picture_as_pdf</span
+                          >
+                        </sup>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.coursera.org/account/accomplishments/verify/4SWSR94H3C3Z"
+                      >
+                        Data Science in Real Life
+                      </a>
+                      <a
+                        href="/certificates/coursera/data-science-in-real-life.pdf"
+                      >
+                        <sup>
+                          <span class="material-icons md-18"
+                            >picture_as_pdf</span
+                          >
+                        </sup>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/ZE5CLY8C7MZ9"
+                >
+                  Getting Started with Google Kubernetes Engine
+                </a>
+                <a
+                  href="/certificates/coursera/getting-started-with-google-kubernetes-engine.pdf"
+                >
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.coursera.org/account/accomplishments/verify/UDMF7Z3VLL8K"
+                >
+                  Algorithmic Toolbox by University of California, San Diego
+                  &amp; Higher School of Economics
+                </a>
+                <a href="/certificates/coursera/algorithmic-toolbox.pdf">
+                  <sup>
+                    <span class="material-icons md-18">picture_as_pdf</span>
+                  </sup>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="/certificates/stanford/CS101.pdf">
+            Computer Science 101 by Stanford Online
+          </a>
+          <sup>
+            <span class="material-icons md-18">picture_as_pdf</span>
+          </sup>
+        </li>
+
+        <li>
+          <a href="/certificates/acc/cloud-native-applications.pdf">
+            Cloud Native Applications by Austin Community College
+          </a>
+          <sup>
+            <span class="material-icons md-18">picture_as_pdf</span>
+          </sup>
+        </li>
+      </ul>
+
+      <h3>Contacts</h3>
+      <p class="lead">Any questions? Please feel free to contact me:</p>
+      <ul>
         <li><a href="https://github.com/svilgelm">GitHub</a></li>
         <li><a href="https://github.com/sv-tools">Open Source Projects</a></li>
-        <li><a href="https://www.linkedin.com/in/svilgelm?locale=en_US">LinkedIn</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/svilgelm?locale=en_US"
+            >LinkedIn</a
+          >
+        </li>
         <li><a href="mailto:sergey@vilgelm.com">Email</a></li>
-    </ul>
+      </ul>
+    </main>
 
-</main>
-
-<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
-        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-        crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
-</script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]',
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl),
+      );
+    </script>
+  </body>
 </html>
